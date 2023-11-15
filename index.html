@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Acerca de mi</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+  </head>
+  <body>
+    <header>
+
+        <h1 class="nombre-completo">LAUTARO SCARAFIA</h1>
+        <h2>Soporte IT</h2>      
+        <div class="menu-principal">
+            <nav>
+                <ul>
+                    <div class="boton-menu"><li><a href="#sobre-mi">Sobre de mí</a></li></div>
+                    <div class="boton-menu"><li><a href="#educacion">Educación</a></li></div>
+                    <div class="boton-menu"><li><a href="#habilidades">Habilidades</a></li></div>
+                    <div class="boton-menu"><li><a href="#contacto">Contacto</a></li></div>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <br>
+    <div id="contenido" class="contenedor-secciones">
+        <div id="sobre-mi">
+          <h1>Sobre mí</h1>
+          <p></p>
+
+          <p>Me considero una persona que se esfuerza por realizar
+            bien su trabajo y se preocupa por generar una buena
+            imágen al cliente cuidando todos los detalles de la
+            empresa o entidad a la que represento.</p>
+
+        <br>
+        </div>
+        <div id="educacion">
+          <h1>Educación</h1>
+          <p style="font-weight: bold;">Universidad Tecnológica Nacional</p>
+          <p>Ing. en Sistemas de Información</p>
+          <br>
+          <p style="font-weight: bold;">Estudios secundarios</p>
+          <p>Bachiller en Informática</p>
+          <br>
+          <p style="font-weight: bold;">Cursos</p>
+          <p>Metodologías Ágiles SCRUM</p>
+          <p>Social media bots with python</p>
+          <p>Power BI - PL 300</p>
+          <p>Liderazgo - Brillant StartUp</p>
+           <br>
+        </div>
+
+
+        <div id="habilidades">
+          <h1>Habilidades</h1>
+          <p style="font-weight: bold;">Conocimientos</p>
+          <p>Python Jr (full stack)</p>
+          <p>Web scrapping (selenium)</p>
+          <p>Redes e infraestructura IT</p>
+          <p>Domótica</p>
+          <p>Sistemas de gestión ERP</p>
+          <p>Diseño de producto</p>
+          <br>
+
+          <p style="font-weight: bold;">Idiomas</p>
+          <table border="2">
+            <tr>
+              <th>Idioma</th>
+              <th>Oral</th>
+              <th>Escrito</th>
+            </tr>
+            <tr>
+              <td>Inglés</td>
+              <td>Básico</td>
+              <td>Técnico intermedio</td>
+            </tr>
+            <tr>
+              <td>Portugés</td>
+              <td>Conversacional básico</td>
+              <td>Muy bueno</td>
+            </tr>
+          </table>
+          
+        </div>
+        <div id="contacto">
+          <h1>Contacto</h1>
+          <p>Coloque sus datos de contacto y enseguida me contactaré</p>
+          <form id="form-contacto" action="sumbit">
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="contacto-nombre" id="contacto-nombre">
+            <br>
+            <label for="contacto-correo">Correo</label>
+            <input type="email" name="contacto-correo" id="contacto-correo">
+            <br>
+            <label for="contacto-correo">Teléfono</label>
+            <input type="text" name="contacto-telefono" id="contacto-telefono">
+            <br>
+            <label>Sexo:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Masculino</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Femenino</label>
+            <br>
+            <br>
+           
+            <label for="contacto-mensaje">Mensaje</label>
+            <br>
+            <textarea type="text" name="contacto-mensaje" id="contacto-mensaje" cols="30" rows="10"></textarea>
+            <br>
+            <label type="text" for="pref-contacto">Preferencia de contacto</label>
+            <select id="pref-contacto" name="pref-contacto">
+            <option value="correo">Correo</option>
+            <option value="telefono">Teléfono</option>
+            </select>
+            
+           
+            <input type="submit" name="enviar-mensaje" id="enviar-mensaje">
+          </form>
+        </div>
+
+
+
+
+    </div>
+
+
+    <footer>
+        <p>Página creada para el Ejercicio 2 de Curso Frontend de React 2023 - Ing. Rubén Romero</p>
+    </footer>
+  </body>
+</html>

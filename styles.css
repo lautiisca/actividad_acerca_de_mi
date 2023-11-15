@@ -1,0 +1,242 @@
+@media (min-width: 768px) {
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: #ffe1ff;
+        color: black;
+    
+    }
+
+    
+    header {
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        background-color: #238EB1;
+        font-size: 20px;
+        font-weight: bold;  
+    }
+
+    
+    header h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    header h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+
+    .menu-principal {
+        text-align: center;
+        font-size: 16px;
+        font-family: Verdana;
+    }
+
+    .boton-menu{
+        background-color: #4FAFD1;
+        border-radius: 6px;
+        margin: 3px;
+        padding: 6px;
+        text-decoration: none;
+        display: inline-flex;
+        
+    }
+    .boton-menu:hover{
+        background-color: #1E6E8C;
+        border-radius: 4px;
+        margin: 10px;
+        padding: 6px;
+        text-decoration: none;
+        display: inline-block;    
+    }
+    .contenedor-secciones{
+        padding: 30px;
+    }
+    .contenedor-secciones  h1{
+        color: white;
+        margin: 10px;
+        padding: 6px;
+        background-color: #238EB1;
+        font-size: 20px;    
+    }
+    .contenedor-secciones p{
+        
+        margin: 10px;
+        font-size: 13px;
+        text-align: justify;
+    }
+.form-contacto {
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+    width: 300px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea, select {
+
+    width: 100%;
+    padding: 8px;
+
+}
+
+input[type="submit"]{
+    font-size: 15px;
+}
+
+    nav ul li {
+        display: inline;
+        text-align: center;
+       
+    }
+    table{
+        width: 100%;
+        border: 1px;
+
+    }
+    th{
+        background-color: #0099ff;
+
+    }
+
+
+    td{
+        
+        padding: 8px;
+        background-color: #c2e7ff;
+
+    }
+}
+
+
+@media (max-width: 767px) {
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: #ffe1ff;
+        color: black;
+    
+    }
+
+    
+    header {
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        background-color: #238EB1;
+        font-size: 20px;
+        font-weight: bold;  
+    }
+
+    
+    header h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    header h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+
+    .menu-principal {
+        text-align: center;
+        font-size: 16px;
+        font-family: Verdana;
+    }
+
+    .boton-menu{
+        background-color: #4FAFD1;
+        border-radius: 6px;
+        margin: 3px;
+        padding: 6px;
+        text-decoration: none;
+        display: inline-block;
+        
+    }
+    .boton-menu:hover{
+        background-color: #1E6E8C;
+        border-radius: 4px;
+        margin: 10px;
+        padding: 6px;
+        text-decoration: none;
+        display: inline-block;    
+    }
+    .contenedor-secciones{
+        padding: 30px;
+    }
+    .contenedor-secciones  h1{
+        color: white;
+        margin: 10px;
+        padding: 6px;
+        background-color: #238EB1;
+        font-size: 25px;    
+    }
+    .contenedor-secciones p{
+        
+        margin: 10px;
+        font-size: 18px;
+        text-align: justify;
+    }
+.form-contacto {
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+    width: 300px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea, select {
+
+    width: 100%;
+    padding: 8px;
+
+}
+
+input[type="submit"]{
+    font-size: 15px;
+}
+
+    nav ul li {
+        display: inline;
+        text-align: center;
+       
+    }
+    table{
+        width: 100%;
+        border: 1px;
+
+    }
+    th{
+        background-color: #0099ff;
+
+    }
+
+
+    td{
+        
+        padding: 8px;
+        background-color: #c2e7ff;
+
+    }
+}
+/* 
+ @media (min-width: 768px) {
+    body {
+ 
+    background-color: #ff00aa;
+
+
+    font-size: 18px;
+    }
+    h1 {
+    font-size: 36px;
+    }
+   }
+   /* Estilos para pantallas menores de 768px */
